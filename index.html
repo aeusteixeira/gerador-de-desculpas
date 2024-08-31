@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Desculpas Aleatórias</title>
+    <meta name="title" content="Gerador de Desculpas Aleatórias" />
+    <meta name="description"
+        content="Precisa de uma desculpa para cancelar um compromisso ou justificar um atraso? Use nosso Gerador de Desculpas Aleatórias para obter desculpas criativas e divertidas. Escolha entre várias categorias e gere desculpas em poucos cliques. Ideal para situações inesperadas e para manter seu calendário sob controle." />
+    <meta name="keywords"
+        content="desculpas aleatórias, gerador de desculpas, desculpas criativas, justificativas para atrasos, desculpas para compromissos, ferramenta de desculpas, aplicativo de desculpas">
+
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aeusteixeira.github.io/gerador-de-desculpas/" />
+    <meta property="og:title" content="Gerador de Desculpas Aleatórias" />
+    <meta property="og:description"
+        content="Precisa de uma desculpa para cancelar um compromisso ou justificar um atraso? Use nosso Gerador de Desculpas Aleatórias para obter desculpas criativas e divertidas. Escolha entre várias categorias e gere desculpas em poucos cliques. Ideal para situações inesperadas e para manter seu calendário sob controle." />
+    <meta property="og:image" content="https://aeusteixeira.github.io/gerador-de-desculpas/img/banner.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://aeusteixeira.github.io/gerador-de-desculpas/" />
+    <meta property="twitter:title" content="Gerador de Desculpas Aleatórias" />
+    <meta property="twitter:description"
+        content="Precisa de uma desculpa para cancelar um compromisso ou justificar um atraso? Use nosso Gerador de Desculpas Aleatórias para obter desculpas criativas e divertidas. Escolha entre várias categorias e gere desculpas em poucos cliques. Ideal para situações inesperadas e para manter seu calendário sob controle." />
+    <meta property="twitter:image" content="https://aeusteixeira.github.io/gerador-de-desculpas/img/banner.jpg" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container mt-5">
+        <section class="card p-4 shadow-lg">
+            <h1 class="text-center mb-4">Gerador de Desculpas Aleatórias</h1>
+            <p class="text-center">
+                Precisando de uma desculpa para cancelar um compromisso ou justificar um atraso? Use o gerador de
+                desculpas
+            </p>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8">
+                    <!-- Categoria de Desculpas -->
+                    <div class="mb-3 text-center">
+                        <label for="categoria" class="form-label">Escolha uma categoria:</label>
+                        <div class="btn-group d-flex justify-content-center">
+                            <input type="radio" class="btn-check" name="categoria" id="trabalho" value="trabalho"
+                                autocomplete="off">
+                            <label class="btn btn-outline-primary flex-fill" for="trabalho">Trabalho</label>
+
+                            <input type="radio" class="btn-check" name="categoria" id="social" value="social"
+                                autocomplete="off">
+                            <label class="btn btn-outline-primary flex-fill" for="social">Social</label>
+
+                            <input type="radio" class="btn-check" name="categoria" id="familia" value="familia"
+                                autocomplete="off">
+                            <label class="btn btn-outline-primary flex-fill" for="familia">Família</label>
+
+                            <input type="radio" class="btn-check" name="categoria" id="saude" value="saude"
+                                autocomplete="off">
+                            <label class="btn btn-outline-primary flex-fill" for="saude">Saúde</label>
+
+                            <input type="radio" class="btn-check" name="categoria" id="outras" value="outras"
+                                autocomplete="off">
+                            <label class="btn btn-outline-primary flex-fill" for="outras">Outras</label>
+                        </div>
+                    </div>
+
+                    <!-- Botão para gerar desculpa -->
+                    <button class="btn btn-primary w-100" id="gerarDesculpa">
+                        <i class="fas fa-random"></i> Gerar Desculpa
+                    </button>
+
+                    <!-- Área de exibição da desculpa gerada -->
+                    <div class="mt-3">
+                        <label for="desculpa" class="form-label">Desculpa gerada:</label>
+                        <textarea class="form-control" id="desculpa" rows="3" readonly></textarea>
+                    </div>
+
+                    <!-- Botão para copiar a desculpa -->
+                    <button class="btn btn-secondary w-100 mt-3" id="copiarDesculpa">
+                        <i class="far fa-copy"></i> Copiar Desculpa
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center mt-5">
+        <p>
+            Feito com <i class="fas fa-heart text-danger"></i> (e com uma enorme dose de preguiça) por <a por <a
+                href="https://matheusteixeira.com.br" target="_blank">Matheus Teixeira</a>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
