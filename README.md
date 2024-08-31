@@ -16,11 +16,17 @@ Um gerador simples de desculpas aleatórias para ajudar você a cancelar comprom
 - **Bootstrap**: Framework CSS para estilização e layout responsivo.
 - **Font Awesome**: Ícones utilizados para os botões.
 
+## Como Acessar
+
+Acesse a aplicação online através do seguinte link:
+
+[Gerador de Desculpas Aleatórias](https://aeusteixeira.github.io/gerador-de-desculpas/)
+
 ## Como Usar
 
 1. **Clone o Repositório**:
     ```bash
-    git clone https://github.com/yourusername/gerador-desculpas.git
+    git clone https://github.com/aeusteixeira/gerador-de-desculpas
     ```
    
 2. **Abra o Arquivo HTML**:
